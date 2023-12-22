@@ -4,8 +4,8 @@
 set -euo pipefail
 
 # Change $PWD for x86_64 arch
-echo "Changing $PWD to $PWD/x86_64..."
-cd x86_64
+echo "Changing $PWD to $PWD/any..."
+cd any
 
 # Check if database files already exist.
 if [[ -f "goth.db" ]] && [[ -f "goth.files" ]]; 
